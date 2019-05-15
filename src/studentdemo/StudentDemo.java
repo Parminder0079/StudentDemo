@@ -12,14 +12,16 @@ package studentdemo;
 public class StudentDemo 
 {
 private String name;//encapsulation
+private int sid;
 //constructor
 public StudentDemo()
 {
     
 }
-public StudentDemo(String n)
+public StudentDemo(String n, int s)
 {
     this.name =n;
+    this.sid=s;
 }
    
 /**
@@ -34,6 +36,20 @@ public StudentDemo(String n)
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * @return the sid
+     */
+    public int getSid() {
+        return sid;
+    }
+
+    /**
+     * @param sid the sid to set
+     */
+    public void setSid(int sid) {
+        this.sid = sid;
     }
     
     
