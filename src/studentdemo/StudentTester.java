@@ -17,7 +17,7 @@ public static void main(String[] args)
        s1.setName("sivagama");
        //System.out.println(s1.getName());
      StudentDemo s2 = new StudentDemo("Daniel");
-StudentDemo s3 = new StudentDemo("Arsh");
+StudentDemo s3 = new StudentDemo("Arsh smdnsdmf" );
 StudentDemo[] list = new StudentDemo[3];//Array of objects
 list[0]=s1;
 list[1]=s2;
